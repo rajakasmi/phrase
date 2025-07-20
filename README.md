@@ -1,14 +1,16 @@
 algorithme_phrase
-the problem :"Entrer a sentence that ends with a period:"
+the problem :"Entrer a sentence that ends with a period ."
 
 read phrase
 .......................
 constraint: 
-input:
-output:
+input:phrase := string
+output: number of caracters , words , vowels
 .........................
-solution: read phrase, 
+solution: read phrase,  
+
 .......................
+algorithme_phrase
 var:
 phrase : string
 nbCharacterss, nbWords,nbVowels: integers
