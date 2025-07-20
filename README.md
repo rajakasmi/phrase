@@ -1,1 +1,37 @@
-# phrase
+algorithme_phrase
+the problem :"Entrer a sentence that ends with a period:"
+
+read phrase
+.......................
+constraint: 
+input:
+output:
+.........................
+solution: read phrase, 
+.......................
+var:
+phrase : string
+nbCharacterss, nbWords,nbVowels: integers
+i:integer
+c:character
+begin
+
+nbCharacters:=0
+nbWords :=1
+nbVowels :=0
+
+For i from 0 length(phrase)-1 do 
+c:=phrase[i]
+nbCharacters := nbCharacters +1
+
+ IF c =''then
+ nbWords := nbWords+1
+ end IF 
+
+ IF c in
+ ['a','e','i','o','u','y','A','E','I','O','Y'] then
+ nbVowels := nbVowels+1
+ End IF
+  End For
+  End
+
