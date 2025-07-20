@@ -22,7 +22,7 @@ nbCharacters:=0
 nbWords :=1
 nbVowels :=0
 
-For i from 0 length(phrase)-1 do 
+For i from 0 to  length(phrase)-1 do 
 c:=phrase[i]
 nbCharacters := nbCharacters +1
 
