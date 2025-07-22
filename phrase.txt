@@ -1,4 +1,4 @@
-algorithme_phrase
+
 the problem 
 .......................
 constraint: 
@@ -22,7 +22,7 @@ write "Entrer a sentence that ends with a period ."
 read phrase
 
 nbCharacters:=0
-nbWords :=1   // on suppose qu'il y a au moins un mot 
+nbWords :=1 // on suppose qu'il y a au moins un mot 
 nbVowels :=0
 
 For i from 0 to  length(phrase)-1 do 
